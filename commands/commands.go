@@ -128,6 +128,11 @@ var (
 		Name:  "no-browser, nb",
 		Usage: "Prevent auto-launching of default browser.",
 	}
+
+	jsonOutputFlag = cli.BoolFlag{
+		Name:  "json-output, J",
+		Usage: "Output result in JSON.",
+	}
 )
 
 // bootstrapCommands simply adds a given command to the allCommands array
